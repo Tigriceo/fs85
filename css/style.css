@@ -1,7 +1,27 @@
-body{
-    font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  /* max-width: 1200px; */
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+button {
+  font-family: inherit;
 }
 
-button{
-    font-family: inherit;
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-list__item {
+  background-color: red;
+  flex-basis: calc((100% - 72px) / 4);
+  min-width: 250px;
+}
+
+.hero__title{
+    font-weight: 700;
 }
